@@ -7,7 +7,7 @@ class LongestCommonSubsequence_1 {
    // System.out.println(lcsDynamic("bsb".toCharArray(), "kb".toCharArray()));
   }
 
-  public static int longestCommonSubsequence(String s1, String s2) {
+  public static int longestCommonSubsequence(String s1, String s2) { 
     int[][] dp = new int[s2.length()][s1.length()];
     int max = 0;
     for (int i = 0; i < s2.length(); i++) {
